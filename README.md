@@ -8,8 +8,8 @@ only difference is that aprilta_ros/src/common_function.cpp the camera frame id 
 REQUIRED MoveIt framework
 
 # Goal 
-The AGV, specifically its external dimensions, the HC10dt, and an RGB camera were utilized to create a simulated robot. 
-The objective is to position the robot arm in front of the chuck of the CNC machine using MoveIt. 
+The objective is to position a robot arm in front of the chuck of the CNC machine using MoveIt. 
+I created the URDF file with the intention of replicating a real robot utilized in my laboratory.
 
 # How to run 
 See agv_moveit_config/launch/simulation.launch for a better understanding. 
