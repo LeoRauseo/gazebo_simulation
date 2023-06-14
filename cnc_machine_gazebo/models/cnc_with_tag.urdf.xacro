@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="my_cnc">
+
+  <xacro:include filename="$(find cnc_machine_gazebo)/models/apriltag3611_0/model.sdf" />
+<xacro:include filename="$(find cnc_machine_gazebo)/models/cnc2/cnc.urdf" />
+  <!-- Add additional robot elements here -->
+
+<joint name="$cnc_to_tag" type="fixed">
+      <parent link="tag_rigth"/>
+      <child link="main"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+</joint>
+</robot>

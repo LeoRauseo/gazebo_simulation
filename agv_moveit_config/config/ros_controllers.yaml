@@ -1,0 +1,17 @@
+joint_state_controller:
+  type: "joint_state_controller/JointStateController"
+  publish_rate: 50
+arm_controller:
+  type: "position_controllers/JointTrajectoryController"
+  joints:
+    - joint_1_s
+    - joint_2_l
+    - joint_3_u
+    - joint_4_r
+    - joint_5_b
+    - joint_6_t
+hand_controller:
+  type: "position_controllers/JointTrajectoryController"
+  joints:
+    - fing1
+    - fing2

@@ -1,0 +1,733 @@
+<sdf version='1.7'>
+  <model name='cnc'>
+    <link name='assembly_1'>
+      <inertial>
+        <pose>0.00485 0.542835 1.18 0 -0 0</pose>
+        <mass>25.4575</mass>
+        <inertia>
+          <ixx>0.099755</ixx>
+          <ixy>4.81949e-12</ixy>
+          <ixz>3.74846e-05</ixz>
+          <iyy>3.07935</iyy>
+          <iyz>1.05238e-10</iyz>
+          <izz>3.0795</izz>
+        </inertia>
+      </inertial>
+      <collision name='assembly_1_collision'>
+        <pose>-0.483 0.542846 1.18 -1.5708 -0 1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/part_4.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_1'>
+        <pose>-1.09539 0.387116 1.86888 -2.61117 1.48353 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a000001_02_02_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_2'>
+        <pose>-0.3183 0.584415 1.156 -0 -0.523599 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/p44.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_3'>
+        <pose>-0.483 0.542846 1.18 -1.5708 -0 1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/y.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_4'>
+        <pose>-0.3183 0.542846 1.228 1.5708 1.5708 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/p44.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_5'>
+        <pose>-0.405 0.542846 1.18 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a403012_01_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_6'>
+        <pose>0.3151 0.558868 1.18925 -3.14159 0.523599 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/p31.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_7'>
+        <pose>-0.405 0.542846 1.18 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a000001_10_01_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_8'>
+        <pose>-1.09539 -0.446802 0.453476 0.530417 -1.48353 1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a000001_02_02_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_9'>
+        <pose>-0.393 0.542846 1.18 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/130_z1_cover.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_10'>
+        <pose>0.3145 0.542846 1.1609 1.5708 -1.5708 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/p31.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_11'>
+        <pose>-0.405 0.242846 1.18 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a000001_10_01_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_12'>
+        <pose>-0.3853 0.542846 1.18 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/202_left_cover.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_13'>
+        <pose>-0.483 0.542846 1.18 -1.5708 -0 1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/x.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_14'>
+        <pose>-0.405 0.542846 1.18 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a000001_02_02_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_15'>
+        <pose>0.3145 0.526305 1.18955 -0 0.523599 1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/p31.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_16'>
+        <pose>-0.405 0.542846 1.18 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a000001_33_04_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_17'>
+        <pose>0.314 0.542846 1.18 -1.5708 0 -3.14159</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/b_206.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_18'>
+        <pose>-0.46 0.542846 1.18 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/150_z3_cover.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_19'>
+        <pose>-0.3048 0.526305 1.17045 3.14159 -0.523599 1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/p31.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_20'>
+        <pose>-1.09539 -0.52875 0.460645 0.530417 -1.48353 1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a000001_02_02_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_21'>
+        <pose>-0.408 0.542846 1.18 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a000001_10_02_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_22'>
+        <pose>-1.09539 0.469063 1.86171 -2.61117 1.48353 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a000001_02_02_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_23'>
+        <pose>-0.425 0.278102 1.01102 1.74533 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a000001_10_04_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_24'>
+        <pose>-0.3054 0.558868 1.17075 0 -0.523599 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/p31.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_25'>
+        <pose>-0.425 0.542846 1.183 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a000001_10_04_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_26'>
+        <pose>0.328 0.501277 1.204 0 0.523599 1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/p44.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_27'>
+        <pose>0.328 0.542846 1.132 1.5708 -1.5708 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/p44.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_28'>
+        <pose>-0.483 0.542846 1.18 -1.5708 -0 1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/z.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_29'>
+        <pose>-0.425 0.542846 1.18 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a000001_02_01_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_30'>
+        <pose>-0.3048 0.542846 1.1991 1.5708 1.5708 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/p31.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_31'>
+        <pose>-0.3183 0.501277 1.156 -3.14159 -0.523599 1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/p44.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_32'>
+        <pose>1.25187 0.277141 0.391413 -2.61799 -1.48353 1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a000001_02_02_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_33'>
+        <pose>-0.383 0.542846 1.18 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a000001_33_03_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_34'>
+        <pose>0.328 0.584415 1.204 3.14159 0.523599 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/p44.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_35'>
+        <pose>-0.405 0.542846 1.18 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a000001_33_05_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_36'>
+        <pose>-0.3043 0.542846 1.18 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/b_206.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_collision_37'>
+        <pose>-0.405 0.542846 1.18 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a000001_10_03_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='assembly_1_fixed_joint_lump__tag_shape_collision_38'>
+        <pose>0.5178 0.259066 1.3923 -1.5708 0 -1.5708</pose>
+        <geometry>
+          <box>
+            <size>0.05 0.05 0.001</size>
+          </box>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='assembly_1_visual'>
+        <pose>-0.483 0.542846 1.18 -1.5708 -0 1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/part_4.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_1'>
+        <pose>-1.09539 0.387116 1.86888 -2.61117 1.48353 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a000001_02_02_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_2'>
+        <pose>-0.3183 0.584415 1.156 -0 -0.523599 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/p44.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_3'>
+        <pose>-0.483 0.542846 1.18 -1.5708 -0 1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/y.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_4'>
+        <pose>-0.3183 0.542846 1.228 1.5708 1.5708 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/p44.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_5'>
+        <pose>-0.405 0.542846 1.18 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a403012_01_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_6'>
+        <pose>0.3151 0.558868 1.18925 -3.14159 0.523599 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/p31.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_7'>
+        <pose>-0.405 0.542846 1.18 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a000001_10_01_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_8'>
+        <pose>-1.09539 -0.446802 0.453476 0.530417 -1.48353 1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a000001_02_02_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_9'>
+        <pose>-0.393 0.542846 1.18 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/130_z1_cover.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_10'>
+        <pose>0.3145 0.542846 1.1609 1.5708 -1.5708 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/p31.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_11'>
+        <pose>-0.405 0.242846 1.18 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a000001_10_01_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_12'>
+        <pose>-0.3853 0.542846 1.18 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/202_left_cover.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_13'>
+        <pose>-0.483 0.542846 1.18 -1.5708 -0 1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/x.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_14'>
+        <pose>-0.405 0.542846 1.18 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a000001_02_02_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_15'>
+        <pose>0.3145 0.526305 1.18955 -0 0.523599 1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/p31.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_16'>
+        <pose>-0.405 0.542846 1.18 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a000001_33_04_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_17'>
+        <pose>0.314 0.542846 1.18 -1.5708 0 -3.14159</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/b_206.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_18'>
+        <pose>-0.46 0.542846 1.18 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/150_z3_cover.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_19'>
+        <pose>-0.3048 0.526305 1.17045 3.14159 -0.523599 1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/p31.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_20'>
+        <pose>-1.09539 -0.52875 0.460645 0.530417 -1.48353 1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a000001_02_02_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_21'>
+        <pose>-0.408 0.542846 1.18 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a000001_10_02_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_22'>
+        <pose>-1.09539 0.469063 1.86171 -2.61117 1.48353 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a000001_02_02_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_23'>
+        <pose>-0.425 0.278102 1.01102 1.74533 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a000001_10_04_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_24'>
+        <pose>-0.3054 0.558868 1.17075 0 -0.523599 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/p31.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_25'>
+        <pose>-0.425 0.542846 1.183 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a000001_10_04_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_26'>
+        <pose>0.328 0.501277 1.204 0 0.523599 1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/p44.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_27'>
+        <pose>0.328 0.542846 1.132 1.5708 -1.5708 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/p44.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_28'>
+        <pose>-0.483 0.542846 1.18 -1.5708 -0 1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/z.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_29'>
+        <pose>-0.425 0.542846 1.18 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a000001_02_01_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_30'>
+        <pose>-0.3048 0.542846 1.1991 1.5708 1.5708 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/p31.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_31'>
+        <pose>-0.3183 0.501277 1.156 -3.14159 -0.523599 1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/p44.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_32'>
+        <pose>1.25187 0.277141 0.391413 -2.61799 -1.48353 1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a000001_02_02_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_33'>
+        <pose>-0.383 0.542846 1.18 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a000001_33_03_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_34'>
+        <pose>0.328 0.584415 1.204 3.14159 0.523599 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/p44.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_35'>
+        <pose>-0.405 0.542846 1.18 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a000001_33_05_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_36'>
+        <pose>-0.3043 0.542846 1.18 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/b_206.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_visual_37'>
+        <pose>-0.405 0.542846 1.18 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://cnc_machine_gazebo/models/cnc2/i1127a000001_10_03_simu.stl</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='assembly_1_fixed_joint_lump__tag_shape_visual_38'>
+        <pose>0.5178 0.259066 1.3923 -1.5708 0 -1.5708</pose>
+        <geometry>
+          <box>
+            <size>0.05 0.05 0.001</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Red</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
+

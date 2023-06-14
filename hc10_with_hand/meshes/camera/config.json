@@ -1,0 +1,6 @@
+{
+    "documentId": "5fcaf5af0e9fbe8f76e79548",
+    "outputFormat": "urdf",
+    "assemblyName": "camera",
+    "useScads": true
+}

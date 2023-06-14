@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<robot name="Apriltag36_11_00000">
+  <link name="Apriltag36_11_00000__main">
+    <inertial>
+      <mass value="0"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <visual name="Apriltag36_11_00000__main_Visual">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.05 0.05 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

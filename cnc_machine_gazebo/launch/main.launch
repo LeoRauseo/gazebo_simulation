@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<launch>
+
+    <!-- Start Gazebo with a blank world -->
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+       
+        <arg name="gui" value="true"/>
+    </include>
+
+<!--  <node name="spawn_cnc" pkg="gazebo_ros" type="spawn_model" args="-file $(find cnc_machine_gazebo)/models/cnc2/cnc.urdf -urdf -x 1 -model cnc_config" 
+    respawn="false" output="screen"/>
+
+
+    
+    <node name="spawn_cube" pkg="gazebo_ros"  type="spawn_model" args="-file $(find fetch_manipulation_gazebo)/models/cube.sdf -sdf -x 1 -model cube -x 0.70 -y 0 -z 0.45" /> 
+    <param  name="robot_description"  textfile="$(find cnc_machine_gazebo)/models/cnc2/cnc.urdf" />
+    
+   <param  name="robot_description"   command="$(find xacro)/xacro $(find cnc_machine_gazebo)/models/cnc_with_tag.urdf.xacro" />-->
+   
+    <param  name="robot_description"  textfile="$(find cnc_machine_gazebo)/models/cnc2/cnc.urdf" />  
+   
+  
+  
+   <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -model cnc" />
+  
+    
+  
+   
+ 
+     <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" >
+   
+     </node>
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" >
+    <param name="publish_frequency" type="double" value="20" />
+    <param name="use_tf_static" type="bool" value="false" />
+
+     </node>
+   <node name="rviz" pkg="rviz" type="rviz">
+    </node>
+ <!--  
+-->
+</launch>
+

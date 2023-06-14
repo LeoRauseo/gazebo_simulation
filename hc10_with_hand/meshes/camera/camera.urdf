@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<robot name="camera">
+<link name="camera_sup2">
+<visual>
+<origin xyz="-0.044250000000000101752 0.064999999999999655276 0.51000000000000034195" rpy="1.570796326794896558 6.6613381477509234653e-16 -1.570796326794896558" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/camera/camera_sup2.stl"/>
+</geometry>
+<material name="camera_sup2_material">
+<color rgba="0.91764705882352937127 0.91764705882352937127 0.91764705882352937127 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.044250000000000101752 0.064999999999999655276 0.51000000000000034195" rpy="1.570796326794896558 6.6613381477509234653e-16 -1.570796326794896558" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/camera/camera_sup2.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.045084453531127645365 0.064999999999999655276 0.51000000000000045297" rpy="1.570796326794896558 6.6613381477509234653e-16 -1.570796326794896558" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/camera/camera_link.stl"/>
+</geometry>
+<material name="camera_link_material">
+<color rgba="0.76862745098039220171 0.88627450980392152857 0.95294117647058818044 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.045084453531127645365 0.064999999999999655276 0.51000000000000045297" rpy="1.570796326794896558 6.6613381477509234653e-16 -1.570796326794896558" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/camera/camera_link.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.04949093212775205336 0.0074999999999999372724 0.029126341361751767467" rpy="0 0 0"/>
+<mass value="0.44949998079333491896" />
+<inertia ixx="0.00025885935812457525193" ixy="-9.4509154105318211273e-21"  ixz="-6.3216991564398030949e-06" iyy="0.00024727718204468863376" iyz="-3.5333537328324862512e-20" izz="0.00030425868802670864464" />
+</inertial>
+</link>
+
+<link name="camera_to_hand">
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0" />
+<mass value="1e-9" />
+<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+</inertial>
+</link>
+<joint name="camera_to_hand_frame" type="fixed">
+<origin xyz="1.2986865570217543499e-17 -6.9676108198468406655e-17 -3.3306690738754696213e-16" rpy="6.6613381477509185349e-16 5.6699377562760083384e-31 1.3877787807814422859e-17" />
+<parent link="camera_to_hand" />
+<child link="camera_sup2" />
+<axis xyz="0 0 0"/>
+</joint>
+
+<link name="camera_link_view">
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0" />
+<mass value="1e-9" />
+<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+</inertial>
+</link>
+<joint name="camera_link_view_frame" type="fixed">
+<origin xyz="0.050000000000000134615 0.0074999999999999103842 0.049999999999999732159" rpy="-5.6699377562760144691e-31 6.6613381477509234653e-16 -1.570796326794896558" />
+<parent link="camera_sup2" />
+<child link="camera_link_view" />
+<axis xyz="0 0 0"/>
+</joint>
+
+<gazebo reference="camera_sup2">
+    <material>Gazebo/Red</material>
+    <sensor name="camera" type="camera">
+    <pose> 0 0 0 0 0 0 </pose>
+    <visualize>true</visualize>
+    <update_rate>10</update_rate>
+    	<camera>
+    		<horizontal_fov>1.42419</horizontal_fov>
+    		<image>
+        	<format>R8G8B8</format>
+        	<width>1920</width>
+        	<height>1080</height>
+    		</image>
+    		<clip>
+        	<near>0.05</near>
+        	<far>8.0</far>
+    		</clip>
+    	</camera>
+    <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+    <frame_name>camera_link_view</frame_name>
+    </plugin>
+</sensor>
+</gazebo>
+
+</robot>

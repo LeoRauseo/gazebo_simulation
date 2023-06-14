@@ -1,0 +1,14 @@
+{
+    "configuration": "default",
+    "documentId": "507e93de8afaf46f1b99d088",
+    "documentMicroversion": "78bc7eb9410aaa7979c838f3",
+    "documentVersion": "4940b554d880033d4fa54f06",
+    "elementId": "0c7fa42027eff71490c48b57",
+    "fullConfiguration": "default",
+    "id": "M/CuHOSP2ABzgDtLq",
+    "isStandardContent": false,
+    "name": "cnc_machine <1>",
+    "partId": "JHD",
+    "suppressed": false,
+    "type": "Part"
+}

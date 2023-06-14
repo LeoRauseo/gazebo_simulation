@@ -1,0 +1,8 @@
+<launch>
+
+  <node name="add_object" pkg="agv_moveit_config" type="add_object" output="screen" >
+     <param name="use_fsm" value="true"/>
+     <param name="state" value="4" type="int"/>
+    </node> 
+
+</launch>

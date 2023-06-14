@@ -1,0 +1,1664 @@
+<?xml version="1.0"?>
+<robot name="agv">
+<link name="part_1">
+<visual>
+<origin xyz="0.279374 0.506048 0.0846503" rpy="0 -2.22045e-16 0" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_mainwheel.stl"/>
+</geometry>
+<material name="ow1_mainwheel_material">
+<color rgba="0.101961 0.101961 0.101961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.279374 0.506048 0.0846503" rpy="0 -2.22045e-16 0" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_mainwheel.stl"/>
+</geometry>
+<material name="ow1_mainwheel_material">
+<color rgba="0.101961 0.101961 0.101961 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.0190616 0.147628 0.104674" rpy="1.5708 1.122 1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0190616 0.147628 0.104674" rpy="1.5708 1.122 1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.00689419 0.431336 0.0724829" rpy="6.43508e-15 0.785398 -3.14159" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.00689419 0.431336 0.0724829" rpy="6.43508e-15 0.785398 -3.14159" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.279374 0.116318 0.0396567" rpy="-1.5708 -0.224399 1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.279374 0.116318 0.0396567" rpy="-1.5708 -0.224399 1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.00689419 0.0689786 0.0186516" rpy="-1.05734 0.456572 2.47803" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.00689419 0.0689786 0.0186516" rpy="-1.05734 0.456572 2.47803" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.031229 0.468979 0.150649" rpy="2.08425 -0.456572 0.663564" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.031229 0.468979 0.150649" rpy="2.08425 -0.456572 0.663564" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.031229 0.578641 0.106104" rpy="0.597894 0.690706 0.409371" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.031229 0.578641 0.106104" rpy="0.597894 0.690706 0.409371" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.267207 0.110811 0.160197" rpy="1.73081 -0.158003 -2.36889" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.267207 0.110811 0.160197" rpy="1.73081 -0.158003 -2.36889" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.0190616 0.116318 0.0396567" rpy="-1.5708 -0.224399 1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0190616 0.116318 0.0396567" rpy="-1.5708 -0.224399 1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.0190616 0.506048 0.0846503" rpy="0 2.22045e-16 0" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_mainwheel.stl"/>
+</geometry>
+<material name="ow1_mainwheel_material">
+<color rgba="0.101961 0.101961 0.101961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0190616 0.506048 0.0846503" rpy="0 2.22045e-16 0" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_mainwheel.stl"/>
+</geometry>
+<material name="ow1_mainwheel_material">
+<color rgba="0.101961 0.101961 0.101961 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.031229 0.0499529 0.0338241" rpy="-2.08425 -0.456572 -0.663564" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.031229 0.0499529 0.0338241" rpy="-2.08425 -0.456572 -0.663564" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.031229 0.431336 0.0968177" rpy="-3.14159 -0.785398 -9.10058e-15" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.031229 0.431336 0.0968177" rpy="-3.14159 -0.785398 -9.10058e-15" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.00689419 0.110811 0.160197" rpy="1.73081 -0.158003 -2.36889" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.00689419 0.110811 0.160197" rpy="1.73081 -0.158003 -2.36889" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.291541 0.0499529 0.0338241" rpy="-2.08425 -0.456572 -0.663564" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.291541 0.0499529 0.0338241" rpy="-2.08425 -0.456572 -0.663564" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.0190616 0.147628 0.0646263" rpy="-1.5708 1.122 -1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0190616 0.147628 0.0646263" rpy="-1.5708 1.122 -1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.279374 0.147628 0.104674" rpy="1.5708 1.122 1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.279374 0.147628 0.104674" rpy="1.5708 1.122 1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.00689419 0.168082 0.128029" rpy="2.5437 -0.690706 -2.73222" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.00689419 0.168082 0.128029" rpy="2.5437 -0.690706 -2.73222" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.267207 0.134536 0.0145187" rpy="-1.73081 -0.158003 2.36889" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.267207 0.134536 0.0145187" rpy="-1.73081 -0.158003 2.36889" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.291541 0.431336 0.0968177" rpy="-3.14159 -0.785398 -9.10058e-15" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.291541 0.431336 0.0968177" rpy="-3.14159 -0.785398 -9.10058e-15" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.0190616 0.477274 0.120732" rpy="1.5708 0.673198 -1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0190616 0.477274 0.120732" rpy="1.5708 0.673198 -1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.149218 0.00604812 0.00465032" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="0.180392 0.215686 0.247059 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.149218 0.00604812 0.00465032" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="0.180392 0.215686 0.247059 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.267207 0.168082 0.128029" rpy="2.5437 -0.690706 -2.73222" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.267207 0.168082 0.128029" rpy="2.5437 -0.690706 -2.73222" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.0190616 0.516318 0.129644" rpy="1.5708 0.224399 1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0190616 0.516318 0.129644" rpy="1.5708 0.224399 1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.031229 0.534536 0.154782" rpy="1.41078 0.158003 0.772704" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.031229 0.534536 0.154782" rpy="1.41078 0.158003 0.772704" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.00689419 0.449953 0.135477" rpy="1.05734 0.456572 -2.47803" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.00689419 0.449953 0.135477" rpy="1.05734 0.456572 -2.47803" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.00689419 0.578641 0.0631963" rpy="-2.5437 -0.690706 2.73222" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.00689419 0.578641 0.0631963" rpy="-2.5437 -0.690706 2.73222" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.267207 0.578641 0.0631963" rpy="-2.5437 -0.690706 2.73222" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.267207 0.578641 0.0631963" rpy="-2.5437 -0.690706 2.73222" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.267207 0.449953 0.135477" rpy="1.05734 0.456572 -2.47803" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.267207 0.449953 0.135477" rpy="1.05734 0.456572 -2.47803" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.267207 0.431336 0.0724829" rpy="6.43508e-15 0.785398 -3.14159" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.267207 0.431336 0.0724829" rpy="6.43508e-15 0.785398 -3.14159" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.291541 0.534536 0.154782" rpy="1.41078 0.158003 0.772704" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.291541 0.534536 0.154782" rpy="1.41078 0.158003 0.772704" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.149218 0.607148 0.00465032" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/part_2.stl"/>
+</geometry>
+<material name="part_2_material">
+<color rgba="0.282353 0.54902 0.160784 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.149218 0.607148 0.00465032" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/part_2.stl"/>
+</geometry>
+<material name="part_2_material">
+<color rgba="0.282353 0.54902 0.160784 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.279374 0.116318 0.129644" rpy="1.5708 0.224399 1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.279374 0.116318 0.129644" rpy="1.5708 0.224399 1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.279374 0.477274 0.120732" rpy="1.5708 0.673198 -1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.279374 0.477274 0.120732" rpy="1.5708 0.673198 -1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.031229 0.0313358 0.0968177" rpy="-3.14159 -0.785398 -9.10058e-15" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.031229 0.0313358 0.0968177" rpy="-3.14159 -0.785398 -9.10058e-15" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.0190616 0.547628 0.0646263" rpy="-1.5708 1.122 -1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0190616 0.547628 0.0646263" rpy="-1.5708 1.122 -1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.031229 0.110811 0.00910365" rpy="-1.41078 0.158003 -0.772704" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.031229 0.110811 0.00910365" rpy="-1.41078 0.158003 -0.772704" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.291541 0.134536 0.154782" rpy="1.41078 0.158003 0.772704" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.291541 0.134536 0.154782" rpy="1.41078 0.158003 0.772704" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.031229 0.0689786 0.150649" rpy="2.08425 -0.456572 0.663564" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.031229 0.0689786 0.150649" rpy="2.08425 -0.456572 0.663564" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.00689419 0.0313358 0.0724829" rpy="6.43508e-15 0.785398 -3.14159" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.00689419 0.0313358 0.0724829" rpy="6.43508e-15 0.785398 -3.14159" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.291541 0.110811 0.00910365" rpy="-1.41078 0.158003 -0.772704" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.291541 0.110811 0.00910365" rpy="-1.41078 0.158003 -0.772704" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.0190616 0.477274 0.0485683" rpy="-1.5708 -0.673198 -1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0190616 0.477274 0.0485683" rpy="-1.5708 -0.673198 -1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.267207 0.0689786 0.0186516" rpy="-1.05734 0.456572 2.47803" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.267207 0.0689786 0.0186516" rpy="-1.05734 0.456572 2.47803" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.279374 0.547628 0.104674" rpy="1.5708 1.122 1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.279374 0.547628 0.104674" rpy="1.5708 1.122 1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.267207 0.468979 0.0186516" rpy="-1.05734 0.456572 2.47803" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.267207 0.468979 0.0186516" rpy="-1.05734 0.456572 2.47803" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.291541 0.510811 0.00910365" rpy="-1.41078 0.158003 -0.772704" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.291541 0.510811 0.00910365" rpy="-1.41078 0.158003 -0.772704" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.031229 0.568082 0.0412714" rpy="-0.597894 0.690706 -0.409371" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.031229 0.568082 0.0412714" rpy="-0.597894 0.690706 -0.409371" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.0190616 0.516318 0.0396567" rpy="-1.5708 -0.224399 1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0190616 0.516318 0.0396567" rpy="-1.5708 -0.224399 1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.291541 0.468979 0.150649" rpy="2.08425 -0.456572 0.663564" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.291541 0.468979 0.150649" rpy="2.08425 -0.456572 0.663564" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.291541 0.0689786 0.150649" rpy="2.08425 -0.456572 0.663564" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.291541 0.0689786 0.150649" rpy="2.08425 -0.456572 0.663564" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.0190616 0.459897 0.0846503" rpy="-3.14159 -1.5708 0" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0190616 0.459897 0.0846503" rpy="-3.14159 -1.5708 0" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.00689419 0.534536 0.0145187" rpy="-1.73081 -0.158003 2.36889" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.00689419 0.534536 0.0145187" rpy="-1.73081 -0.158003 2.36889" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.279374 0.0772736 0.120732" rpy="1.5708 0.673198 -1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.279374 0.0772736 0.120732" rpy="1.5708 0.673198 -1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.267207 0.0499529 0.135477" rpy="1.05734 0.456572 -2.47803" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.267207 0.0499529 0.135477" rpy="1.05734 0.456572 -2.47803" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.00689419 0.0499529 0.135477" rpy="1.05734 0.456572 -2.47803" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.00689419 0.0499529 0.135477" rpy="1.05734 0.456572 -2.47803" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.00689419 0.178641 0.0631963" rpy="-2.5437 -0.690706 2.73222" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.00689419 0.178641 0.0631963" rpy="-2.5437 -0.690706 2.73222" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.0190616 0.0598974 0.0846503" rpy="-3.14159 -1.5708 0" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0190616 0.0598974 0.0846503" rpy="-3.14159 -1.5708 0" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.279374 0.0598974 0.0846503" rpy="-3.14159 -1.5708 0" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.279374 0.0598974 0.0846503" rpy="-3.14159 -1.5708 0" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.267207 0.534536 0.0145187" rpy="-1.73081 -0.158003 2.36889" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.267207 0.534536 0.0145187" rpy="-1.73081 -0.158003 2.36889" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.0190616 0.0772736 0.120732" rpy="1.5708 0.673198 -1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0190616 0.0772736 0.120732" rpy="1.5708 0.673198 -1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.00689419 0.510811 0.160197" rpy="1.73081 -0.158003 -2.36889" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.00689419 0.510811 0.160197" rpy="1.73081 -0.158003 -2.36889" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.031229 0.168082 0.0412714" rpy="-0.597894 0.690706 -0.409371" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.031229 0.168082 0.0412714" rpy="-0.597894 0.690706 -0.409371" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.031229 0.449953 0.0338241" rpy="-2.08425 -0.456572 -0.663564" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.031229 0.449953 0.0338241" rpy="-2.08425 -0.456572 -0.663564" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.267207 0.0313358 0.0724829" rpy="6.43508e-15 0.785398 -3.14159" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.267207 0.0313358 0.0724829" rpy="6.43508e-15 0.785398 -3.14159" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.279374 0.106048 0.0846503" rpy="0 -2.22045e-16 0" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_mainwheel.stl"/>
+</geometry>
+<material name="ow1_mainwheel_material">
+<color rgba="0.101961 0.101961 0.101961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.279374 0.106048 0.0846503" rpy="0 -2.22045e-16 0" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_mainwheel.stl"/>
+</geometry>
+<material name="ow1_mainwheel_material">
+<color rgba="0.101961 0.101961 0.101961 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.291541 0.449953 0.0338241" rpy="-2.08425 -0.456572 -0.663564" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.291541 0.449953 0.0338241" rpy="-2.08425 -0.456572 -0.663564" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.0190616 0.0772736 0.0485683" rpy="-1.5708 -0.673198 -1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0190616 0.0772736 0.0485683" rpy="-1.5708 -0.673198 -1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.267207 0.178641 0.0631963" rpy="-2.5437 -0.690706 2.73222" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.267207 0.178641 0.0631963" rpy="-2.5437 -0.690706 2.73222" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.267207 0.510811 0.160197" rpy="1.73081 -0.158003 -2.36889" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.267207 0.510811 0.160197" rpy="1.73081 -0.158003 -2.36889" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.00689419 0.568082 0.128029" rpy="2.5437 -0.690706 -2.73222" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.00689419 0.568082 0.128029" rpy="2.5437 -0.690706 -2.73222" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.267207 0.568082 0.128029" rpy="2.5437 -0.690706 -2.73222" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.267207 0.568082 0.128029" rpy="2.5437 -0.690706 -2.73222" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.291541 0.568082 0.0412714" rpy="-0.597894 0.690706 -0.409371" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.291541 0.568082 0.0412714" rpy="-0.597894 0.690706 -0.409371" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.279374 0.516318 0.129644" rpy="1.5708 0.224399 1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.279374 0.516318 0.129644" rpy="1.5708 0.224399 1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.031229 0.178641 0.106104" rpy="0.597894 0.690706 0.409371" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.031229 0.178641 0.106104" rpy="0.597894 0.690706 0.409371" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.00689419 0.468979 0.0186516" rpy="-1.05734 0.456572 2.47803" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.00689419 0.468979 0.0186516" rpy="-1.05734 0.456572 2.47803" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.291541 0.168082 0.0412714" rpy="-0.597894 0.690706 -0.409371" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.291541 0.168082 0.0412714" rpy="-0.597894 0.690706 -0.409371" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.149218 0.00604812 0.00465032" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/part_2.stl"/>
+</geometry>
+<material name="part_2_material">
+<color rgba="0.282353 0.54902 0.160784 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.149218 0.00604812 0.00465032" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/part_2.stl"/>
+</geometry>
+<material name="part_2_material">
+<color rgba="0.282353 0.54902 0.160784 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.031229 0.134536 0.154782" rpy="1.41078 0.158003 0.772704" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.031229 0.134536 0.154782" rpy="1.41078 0.158003 0.772704" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.279374 0.477274 0.0485683" rpy="-1.5708 -0.673198 -1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.279374 0.477274 0.0485683" rpy="-1.5708 -0.673198 -1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.0190616 0.106048 0.0846503" rpy="0 2.22045e-16 0" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_mainwheel.stl"/>
+</geometry>
+<material name="ow1_mainwheel_material">
+<color rgba="0.101961 0.101961 0.101961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0190616 0.106048 0.0846503" rpy="0 2.22045e-16 0" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_mainwheel.stl"/>
+</geometry>
+<material name="ow1_mainwheel_material">
+<color rgba="0.101961 0.101961 0.101961 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.279374 0.147628 0.0646263" rpy="-1.5708 1.122 -1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.279374 0.147628 0.0646263" rpy="-1.5708 1.122 -1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.291541 0.178641 0.106104" rpy="0.597894 0.690706 0.409371" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.291541 0.178641 0.106104" rpy="0.597894 0.690706 0.409371" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.0190616 0.116318 0.129644" rpy="1.5708 0.224399 1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0190616 0.116318 0.129644" rpy="1.5708 0.224399 1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.291541 0.578641 0.106104" rpy="0.597894 0.690706 0.409371" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.291541 0.578641 0.106104" rpy="0.597894 0.690706 0.409371" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.291541 0.0313358 0.0968177" rpy="-3.14159 -0.785398 -9.10058e-15" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.291541 0.0313358 0.0968177" rpy="-3.14159 -0.785398 -9.10058e-15" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.031229 0.510811 0.00910365" rpy="-1.41078 0.158003 -0.772704" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.031229 0.510811 0.00910365" rpy="-1.41078 0.158003 -0.772704" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.279374 0.516318 0.0396567" rpy="-1.5708 -0.224399 1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.279374 0.516318 0.0396567" rpy="-1.5708 -0.224399 1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.0190616 0.547628 0.104674" rpy="1.5708 1.122 1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0190616 0.547628 0.104674" rpy="1.5708 1.122 1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.279374 0.459897 0.0846503" rpy="-3.14159 -1.5708 0" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.279374 0.459897 0.0846503" rpy="-3.14159 -1.5708 0" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.00689419 0.134536 0.0145187" rpy="-1.73081 -0.158003 2.36889" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.00689419 0.134536 0.0145187" rpy="-1.73081 -0.158003 2.36889" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_roller.stl"/>
+</geometry>
+<material name="ow1_roller_material">
+<color rgba="0.286275 0.662745 0.329412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.279374 0.547628 0.0646263" rpy="-1.5708 1.122 -1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.279374 0.547628 0.0646263" rpy="-1.5708 1.122 -1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.279374 0.0772736 0.0485683" rpy="-1.5708 -0.673198 -1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.279374 0.0772736 0.0485683" rpy="-1.5708 -0.673198 -1.5708" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv/ow1_subaxle.stl"/>
+</geometry>
+<material name="ow1_subaxle_material">
+<color rgba="0.301961 0.301961 0.301961 1.0"/>
+</material>
+</collision>
+<inertial>
+<origin xyz="0.149218 0.306048 0.262344" rpy="0 0 0"/>
+<mass value="229.534" />
+<inertia ixx="11.3933" ixy="-2.98406e-11"  ixz="-4.54221e-06" iyy="6.44553" iyz="-4.48598e-07" izz="8.70738" />
+</inertial>
+</link>
+
+<link name="arm_position">
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0" />
+<mass value="1e-9" />
+<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+</inertial>
+</link>
+<joint name="arm_position_frame" type="fixed">
+<origin xyz="0.149218 0.186128 0.50465" rpy="0 -0 1.5708" />
+<parent link="part_1" />
+<child link="arm_position" />
+<axis xyz="0 0 0"/>
+</joint>
+
+
+</robot>

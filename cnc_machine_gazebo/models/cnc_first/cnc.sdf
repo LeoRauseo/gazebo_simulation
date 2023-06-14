@@ -1,0 +1,119 @@
+<?xml version='1.0'?>
+<sdf version="1.6">
+<model name="cnc">
+<link name="link_cnc_machine">
+<frame name="cnc_machine_frame"><pose>0 0 0 0 -0 0</pose></frame>
+<visual name="cnc_machine_0_p44_visual">
+<pose>0.417 0.571 1.05343 -3.14159 -1.0472 1.5708</pose>
+<geometry>
+<mesh><uri>/home/leo/project/final_project/src/HC10_tc/cnc_machine_gazebo/models/cnc/p44.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="cnc_machine_0_p44_visual">
+<pose>0.417 0.571 1.05343 -3.14159 -1.0472 1.5708</pose>
+<geometry>
+<mesh><uri>/home/leo/project/final_project/src/HC10_tc/cnc_machine_gazebo/models/cnc/p44.stl</uri></mesh>
+</geometry>
+</collision>
+<visual name="cnc_machine_1_cnc_machine_visual">
+<pose>-1.11022e-16 1 0 0 -0 0</pose>
+<geometry>
+<mesh><uri>/home/leo/project/final_project/src/HC10_tc/cnc_machine_gazebo/models/cnc/cnc_machine.stl</uri></mesh>
+</geometry>
+<material><ambient>0.615686 0.811765 0.929412 1</ambient><diffuse>0.615686 0.811765 0.929412 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="cnc_machine_1_cnc_machine_visual">
+<pose>-1.11022e-16 1 0 0 -0 0</pose>
+<geometry>
+<mesh><uri>/home/leo/project/final_project/src/HC10_tc/cnc_machine_gazebo/models/cnc/cnc_machine.stl</uri></mesh>
+</geometry>
+</collision>
+<visual name="cnc_machine_2_b_206_visual">
+<pose>0.431 0.595 1.095 0 -0 0</pose>
+<geometry>
+<mesh><uri>/home/leo/project/final_project/src/HC10_tc/cnc_machine_gazebo/models/cnc/b_206.stl</uri></mesh>
+</geometry>
+<material><ambient>0.752941 0.752941 0.752941 1</ambient><diffuse>0.752941 0.752941 0.752941 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="cnc_machine_2_b_206_visual">
+<pose>0.431 0.595 1.095 0 -0 0</pose>
+<geometry>
+<mesh><uri>/home/leo/project/final_project/src/HC10_tc/cnc_machine_gazebo/models/cnc/b_206.stl</uri></mesh>
+</geometry>
+</collision>
+<visual name="cnc_machine_3_p44_visual">
+<pose>0.417 0.571 1.13657 -3.14159 1.0472 1.5708</pose>
+<geometry>
+<mesh><uri>/home/leo/project/final_project/src/HC10_tc/cnc_machine_gazebo/models/cnc/p44.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="cnc_machine_3_p44_visual">
+<pose>0.417 0.571 1.13657 -3.14159 1.0472 1.5708</pose>
+<geometry>
+<mesh><uri>/home/leo/project/final_project/src/HC10_tc/cnc_machine_gazebo/models/cnc/p44.stl</uri></mesh>
+</geometry>
+</collision>
+<visual name="cnc_machine_4_p44_visual">
+<pose>0.417 0.643 1.095 -1.22465e-16 -0 -1.5708</pose>
+<geometry>
+<mesh><uri>/home/leo/project/final_project/src/HC10_tc/cnc_machine_gazebo/models/cnc/p44.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="cnc_machine_4_p44_visual">
+<pose>0.417 0.643 1.095 -1.22465e-16 -0 -1.5708</pose>
+<geometry>
+<mesh><uri>/home/leo/project/final_project/src/HC10_tc/cnc_machine_gazebo/models/cnc/p44.stl</uri></mesh>
+</geometry>
+</collision>
+<visual name="cnc_machine_5_p31_visual">
+<pose>0.4305 0.58545 1.11154 3.14159 1.0472 1.5708</pose>
+<geometry>
+<mesh><uri>/home/leo/project/final_project/src/HC10_tc/cnc_machine_gazebo/models/cnc/p31.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="cnc_machine_5_p31_visual">
+<pose>0.4305 0.58545 1.11154 3.14159 1.0472 1.5708</pose>
+<geometry>
+<mesh><uri>/home/leo/project/final_project/src/HC10_tc/cnc_machine_gazebo/models/cnc/p31.stl</uri></mesh>
+</geometry>
+</collision>
+<visual name="cnc_machine_6_p31_visual">
+<pose>0.4305 0.6141 1.095 -1.22465e-16 -0 -1.5708</pose>
+<geometry>
+<mesh><uri>/home/leo/project/final_project/src/HC10_tc/cnc_machine_gazebo/models/cnc/p31.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="cnc_machine_6_p31_visual">
+<pose>0.4305 0.6141 1.095 -1.22465e-16 -0 -1.5708</pose>
+<geometry>
+<mesh><uri>/home/leo/project/final_project/src/HC10_tc/cnc_machine_gazebo/models/cnc/p31.stl</uri></mesh>
+</geometry>
+</collision>
+<visual name="cnc_machine_7_p31_visual">
+<pose>0.4299 0.58575 1.07898 -3.14159 -1.0472 1.5708</pose>
+<geometry>
+<mesh><uri>/home/leo/project/final_project/src/HC10_tc/cnc_machine_gazebo/models/cnc/p31.stl</uri></mesh>
+</geometry>
+<material><ambient>0.792157 0.819608 0.933333 1</ambient><diffuse>0.792157 0.819608 0.933333 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="cnc_machine_7_p31_visual">
+<pose>0.4299 0.58575 1.07898 -3.14159 -1.0472 1.5708</pose>
+<geometry>
+<mesh><uri>/home/leo/project/final_project/src/HC10_tc/cnc_machine_gazebo/models/cnc/p31.stl</uri></mesh>
+</geometry>
+</collision>
+<inertial>
+<pose frame="cnc_machine_frame">0.253377 0.540239 1.05899 0 0 0</pose>
+<mass>2269.65</mass>
+<inertia><ixx>1056.54</ixx><ixy>-39.1702</ixy><ixz>-45.4104</ixz><iyy>921.253</iyy><iyz>9.72877</iyz><izz>332.227</izz></inertia>
+</inertial>
+</link>
+
+
+</model>
+</sdf>

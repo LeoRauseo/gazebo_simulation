@@ -1,0 +1,40 @@
+<robot name="agv">
+<link name="part_1">
+<visual>
+<origin xyz="-0.35000000000000003331 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv2/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="0.043137254901960783715 0.21568627450980393245 0.40392156862745098866 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.35000000000000003331 0 0" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://hc10_with_hand/meshes/agv2/part_1.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="-5.5511151231257827021e-17 0.63400000000000000799 0.37981666666666674681" rpy="0 0 0"/>
+<mass value="4945.500000000001819" />
+<inertia ixx="837.31419627625041358" ixy="1.0274208650518092216e-13"  ixz="1.4222477333000753134e-14" iyy="451.51244427625027811" iyz="-62.245216950000028078" izz="789.68425200000012865" />
+</inertial>
+</link>
+
+<link name="arm_position">
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0" />
+<mass value="1e-9" />
+<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />
+</inertial>
+</link>
+<joint name="arm_position_frame" type="fixed">
+<origin xyz="-1.6656406986375213093e-16 0.29999999999999982236 0.66500000000000036859" rpy="0 -0 -1.570796326794896558" />
+<parent link="part_1" />
+<child link="arm_position" />
+<axis xyz="0 0 0"/>
+</joint>
+
+
+</robot>

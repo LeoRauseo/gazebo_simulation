@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<launch>
+
+    <arg name="robot" default="motoman_hc10"/>
+    <arg name="debug" default="false"/>
+    <arg name="gui" default="true"/>
+    <arg name="headless" default="false"/>
+    <arg name="pause" default="false"/>
+    <arg name="verbose" default="true"/>
+    <arg name="world_name" default="$(find agv_moveit_config)/worlds/room.world"/>
+    <arg name="x" default="0.0" />
+    <arg name="y" default="-0.30" />
+    <arg name="z" default="0.0" />
+    <arg name="roll" default="0"/>
+    <arg name="pitch" default="0"/>
+    <arg name="yaw" default="3.14" />
+    
+     <arg name="/use_sim_time" value="true"/>
+  
+
+   <arg name="paused" default="false"/>
+  <arg name="gazebo_gui" default="true"/>
+  <arg name="use_rviz" default="true" />   
+  
+  
+  
+  <arg name="use_fsm" default="false"/>
+
+
+
+ <include file="$(find cnc_machine_gazebo)/launch/tag.launch"/>
+
+
+<!--  URDF and TF support  -->
+<rosparam file="$(find agv_moveit_config)/config/ros_controllers.yaml" command="load"/>
+
+ <param name="robot_description" textfile="$(find agv_moveit_config)/config/gazebo_hc10_with_hand.urdf" /> 
+
+ <!--  <arg name="model" default="$(find hc10_with_hand)/urdf/hc10_with_hand.urdf.xacro"/>
+  <param name="robot_description" command="$(find xacro)/xacro $(arg model)"/>-->
+  <node pkg="tf2_ros" type="static_transform_publisher" name="virtual_joint_broadcaster_0" args="$(arg x) $(arg y) $(arg z) 3.14 0 0 world part_1" /> 
+  <node pkg="tf2_ros" type="static_transform_publisher" name="virtual_joint_broadcaster_1" args="0 0 0 0 0 0 world assembly_1" /> 
+  
+  
+<node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher">
+<param name="publish_frequency" value="50.0"/>
+</node>
+
+<!--  Put a robot in gazebo, -->
+<node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen" args="-urdf -x $(arg x) -y $(arg y) -z $(arg z) -R $(arg roll) -P $(arg pitch) -Y $(arg yaw) -model motoman_hc10 -param robot_description"/>
+
+
+  
+<node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
+    output="screen" args="joint_state_controller arm_controller hand_controller"/>  
+    <!-- Start MoveIt RViz
+    
+    
+   <include file="$(find hc10_moveit_config)/launch/demo.launch" pass_all_args="true">
+    <arg name="load_robot_description" value="false" />
+    <arg name="moveit_controller_manager" value="ros_control" />
+  </include>
+
+-->
+
+
+<!-- specify the planning pipeline -->
+  <arg name="pipeline" default="ompl" />
+
+ 
+  <!-- Choose controller manager: fake, simple, or ros_control -->
+  <arg name="moveit_controller_manager" default="ros_control" />
+  <!-- Set execution mode for fake execution controllers -->
+  <arg name="fake_execution_type" default="interpolate" />
+
+  <!-- By default, hide joint_state_publisher's GUI in 'fake' controller_manager mode -->
+  
+  
+  
+
+  <!-- If needed, broadcast static tf for robot root -->
+
+
+  <!-- Run the main MoveIt executable without trajectory execution (we do not have controllers configured by default) -->
+  <include file="$(dirname)/move_group.launch">
+    <arg name="allow_trajectory_execution" value="true"/>
+    <arg name="moveit_controller_manager" value="$(arg moveit_controller_manager)" />
+    <arg name="fake_execution_type" value="$(arg fake_execution_type)"/>
+    <arg name="info" value="false"/>
+    <arg name="debug" value="$(arg debug)"/>
+    <arg name="pipeline" value="$(arg pipeline)"/>
+    <arg name="load_robot_description" value="false"/>
+  </include>  
+  <!-- Run Rviz and load the default config to see the state of the move_group node     -->
+ 
+  <include file="$(dirname)/moveit_rviz.launch" if="$(arg use_rviz)">
+    <arg name="rviz_config" value="$(dirname)/moveit.rviz"/>
+    <arg name="debug" value="$(arg debug)"/>
+  </include>
+
+
+ 
+
+   <include file="$(find apriltag_ros)/launch/continuous_detection.launch">
+  <arg name="image_topic" value="image_raw"/>
+    </include>
+    
+    
+    
+    
+    <!-- fsm machine enabled -->
+    
+     <group if="$(eval arg('use_fsm') == true)">
+    
+
+      <node name="finite_state_machine" pkg="agv_moveit_config" type="finite_state_machine"  />
+      
+      
+     <node name="move_camera" pkg="agv_moveit_config" type="move_camera" output="screen">
+    <param name="use_fsm" value="$(arg use_fsm)"/>
+    </node> 
+
+     <node name="add_object" pkg="agv_moveit_config" type="add_object" output="screen">
+     <param name="use_fsm" value="$(arg use_fsm)"/>
+     <param name="state" value="1" type="int"/>
+    </node> 
+    
+   
+    
+    <node name="add_object2" pkg="agv_moveit_config" type="add_object" >
+     <param name="use_fsm" value="$(arg use_fsm)"/>
+     <param name="state" value="4" type="int"/>
+    </node> 
+
+ 
+ <node name="tf_b" pkg="agv_moveit_config" type="tf_broadcaster">
+    <param name="use_fsm" value="$(arg use_fsm)"/>
+</node> 
+ 
+ <node name="move_to_tag" pkg="agv_moveit_config" type="move_to_tag">
+    <param name="use_fsm" value="$(arg use_fsm)"/>
+</node> 
+ 
+ <node name="move_to_chuck" pkg="agv_moveit_config" type="move_to_chuck">
+    <param name="use_fsm" value="$(arg use_fsm)"/>
+</node>  
+  </group>
+    
+</launch>
+

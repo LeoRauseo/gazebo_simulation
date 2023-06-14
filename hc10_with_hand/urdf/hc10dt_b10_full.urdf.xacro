@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot xmlns:xacro="https://ros.org/wiki/xacro" name="hc10_with_hand">
+  <!-- Here we define the 2 parameters of the macro 
+  
+  <origin xyz="0 0 0" rpy="${-pi/2} ${-pi/2} 0"/>   
+  -->
+ <xacro:include filename="$(find motoman_hc10_support)/urdf/hc10dt_b10.xacro"/>
+
+ <xacro:include filename="$(find hc10_with_hand)/urdf/agv.urdf" />
+<xacro:include filename="$(find hc10_with_hand)/urdf/end_effector_no_actuation.urdf"/>
+<xacro:include filename="$(find hc10_with_hand)/urdf/camera.urdf" />
+
+<joint name="$agv_arm_joint" type="fixed">
+      <parent link="arm_position"/>
+      <child link="base_link"/>
+      <origin xyz="0 0 0" rpy="0 0 ${-pi/2}"/>
+</joint>
+    
+
+<joint name="$hand_tool_joint" type="fixed">
+      <parent link="tool0"/>
+      <child link="arm_to_hand"/>
+      <origin xyz="0 0 0" rpy="0 0 ${pi}"/>
+</joint>
+     
+<joint name="$camera_joint" type="fixed">
+      <parent link="hand_to_camera"/>
+      <child link="camera_to_hand"/>
+      <origin xyz="0 0 0" rpy="0 0 ${-pi/2}"/>   
+      
+</joint>  
+
+</robot>

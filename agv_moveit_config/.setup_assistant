@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: hc10_with_hand
+    relative_path: urdf/hc10dt_full.urdf.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/hc10_with_hand.srdf
+  CONFIG:
+    author_name: leonardo
+    author_email: leonardorauseo@live.it
+    generated_timestamp: 1682426087

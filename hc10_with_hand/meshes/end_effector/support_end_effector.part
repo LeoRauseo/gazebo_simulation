@@ -1,0 +1,14 @@
+{
+    "configuration": "default",
+    "documentId": "5fcaf5af0e9fbe8f76e79548",
+    "documentMicroversion": "e5b4c6e5e68fcf62c91e8a83",
+    "documentVersion": "28ca694d90b04475844ee9a8",
+    "elementId": "f48bb5662ffd5d3c4bf964aa",
+    "fullConfiguration": "default",
+    "id": "Mu7ihqzNeAulffngG",
+    "isStandardContent": false,
+    "name": "support_end_effector <1>",
+    "partId": "JUD",
+    "suppressed": false,
+    "type": "Part"
+}
