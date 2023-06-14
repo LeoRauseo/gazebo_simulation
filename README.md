@@ -14,6 +14,6 @@ The objective is to position the robot arm in front of the chuck of the CNC mach
 # How to run 
 See agv_moveit_config/launch/simulation.launch for a better understanding. 
 To run the simulation
-'''bash
+'''shell
  $ roslaunch agv_moveit_config simulation.launch use_fsm:=true
 '''
