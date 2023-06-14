@@ -11,7 +11,7 @@ REQUIRED MoveIt framework
 The AGV, specifically its external dimensions, the HC10dt, and an RGB camera were utilized to create a simulated robot. 
 The objective is to position the robot arm in front of the chuck of the CNC machine using MoveIt. 
 
-#How to run 
+# How to run 
 See agv_moveit_config/launch/simulation.launch for a better understanding. 
 To run the simulation
 roslaunch agv_moveit_config simulation.launch use_fsm:=true
